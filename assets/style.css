@@ -136,3 +136,6 @@ main {
 .footer {
     color: var(--blue);
 }
+
+.p-text-card-title {
+display: flex;
