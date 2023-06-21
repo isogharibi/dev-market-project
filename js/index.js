@@ -1,0 +1,27 @@
+$(document).ready(function(){
+    $(".button").click(function(){
+      $("#div1").hide();
+    });
+    $(".button2").click(function(){
+        $("#div2").hide();
+      });
+      $(".button3").click(function(){
+        $("#div3").hide();
+      });
+      $(".button3").click(function(){
+        $(".buy").hide();
+      });
+      $(".button").click(function(){
+        $(".hide-show").show();
+        $(".hide-show2").hide();
+      });
+      $(".btn-pr").click(function(){
+        $("#div1").show();
+        $("#div2").show();
+        $("#div3").show();
+        $(".buy").show();
+        $(".hide-show").hide();
+        $(".hide-show2").show();
+      });
+
+  });
