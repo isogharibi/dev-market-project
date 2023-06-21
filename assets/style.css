@@ -79,14 +79,14 @@ main {
     font-size: 43px;
 }
 
-.whthe {
+.card-title {
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
 }
 
-.whthe-2 {
+.card-title-2 {
     width: auto;
     height: auto;
     display: flex;
@@ -97,7 +97,7 @@ main {
     border-radius: 14px;
 }
 
-.text-whthe {
+.text-card-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,14 +108,14 @@ main {
     font-size: 23px;
 }
 
-.whthe-2 div {
+.card-title-2 div {
     display: flex;
     justify-content: space-between;
     width: 70%;
     align-items: center;
 }
 
-.p-text-whthe {
+.p-text-card-title {
     font-size: 10px;
     padding-top: 14px;
     color: gray;
