@@ -140,5 +140,7 @@ main {
 }
 
 .p-text-card-title {
-display: flex;
+    display: flex;
+    font-size: 15px;
+
 }
