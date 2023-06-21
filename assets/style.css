@@ -1,0 +1,148 @@
+:root {
+    --text: #7889FF;
+    --bg:#96a2fa1a;
+    --wight: #fff;
+    --pink: #FF7FC2;
+    --sky-blue: #6A83FE;
+    --blue: #4A6DFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+main {
+    max-width: 370px;
+    margin: 0px auto;
+}
+
+.text-title {
+    color: var(--text);
+}
+
+.title-text {
+    font-weight: 800;
+}
+
+.title-nav {
+    width: 170px;
+}
+
+.bodyy {
+    border-radius: 8px;
+    padding: 20px;
+    color: var(--text);
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+    margin-left: -20px;
+}
+
+.Basket h5 {
+    color: var(--wight);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding: 2px;
+    text-align: center;
+    background-color: var(--pink);
+}
+
+.Basket {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg);
+    border-radius: 40px;
+    padding: 30px;
+    gap: 30px;
+}
+
+.crad-title {
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.Basket h2 {
+    color: var(--blue);
+    font-weight: 800;
+    font-size: 43px;
+}
+
+.whthe {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.whthe-2 {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    padding: 14px;
+    border-radius: 14px;
+}
+
+.text-whthe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.whthe-2 div {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+}
+
+.p-text-whthe {
+    font-size: 10px;
+    padding-top: 14px;
+    color: gray;
+    font-weight: 500;
+}
+.border{
+    border-radius: 10px;
+}
+.buy{
+    color: var(--blue);
+}
+.buy div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-pr{
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    color: var(--wight);
+    background-color: var(--button);
+}
+.btn-pr:hover{
+    background-color: #2550fa;
+}
+.div-btn-pr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide-show{
+    display: none;
+}
