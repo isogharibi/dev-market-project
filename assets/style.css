@@ -41,7 +41,7 @@ main {
     margin-left: -20px;
 }
 
-.Basket h5 {
+.body-project h5 {
     color: var(--wight);
     width: 30px;
     height: 30px;
@@ -51,7 +51,7 @@ main {
     background-color: var(--pink);
 }
 
-.Basket {
+.body-project {
     width: auto;
     height: auto;
     display: flex;
@@ -67,20 +67,20 @@ main {
     margin-bottom: -5px;
 }
 
-.Basket h2 {
+.body-project h2 {
     color: var(--blue);
     font-weight: 800;
     font-size: 43px;
 }
 
-.whthe {
+.title-body-project {
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
 }
 
-.whthe-2 {
+.title-body-project-2 {
     width: auto;
     height: auto;
     display: flex;
@@ -91,7 +91,7 @@ main {
     border-radius: 14px;
 }
 
-.text-whthe {
+.text-title-body-project {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,7 +109,7 @@ main {
     align-items: center;
 }
 
-.p-text-whthe {
+.p-text-title-body-project {
     font-size: 10px;
     padding-top: 14px;
     color: gray;
