@@ -118,7 +118,7 @@ main {
 }
 
 .p-text-card-title {
-    font-size: 10px;
+    font-size: 20px;
     padding-top: 14px;
     color: gray;
     font-weight: 500;
@@ -139,8 +139,3 @@ main {
     color: var(--blue);
 }
 
-.p-text-card-title {
-    display: flex;
-    font-size: 15px;
-
-}
