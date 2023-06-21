@@ -1,6 +1,6 @@
 :root {
     --text: #7889FF;
-    --bg:#96a2fa1a;
+    --bg: #96a2fa1a;
     --wight: #fff;
     --pink: #FF7FC2;
     --sky-blue: #6A83FE;
@@ -121,15 +121,18 @@ main {
     color: gray;
     font-weight: 500;
 }
-.border{
-    border-radius: 10px;
-}
-.buy{
-    color: var(--blue);
-}
-.buy div{
+
+.footer div {
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
+}
+
+.border {
+    border-radius: 10px;
+}
+
+.footer {
+    color: var(--blue);
 }
